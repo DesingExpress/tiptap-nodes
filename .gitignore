@@ -23,3 +23,7 @@ yarn-debug.log*
 yarn-error.log*
 
 *.xnode
+src/components/tiptap/**/*.d.ts
+src/components/tiptap/**/*.d.ts.map
+src/components/tiptap/**/*.js
+src/components/tiptap/**/*.js.map
