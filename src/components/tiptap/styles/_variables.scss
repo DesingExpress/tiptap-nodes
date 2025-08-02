@@ -1,4 +1,4 @@
-:root {
+* {
   /****************** 
   Basics
   ******************/
@@ -171,7 +171,7 @@
   }
 }
 
-:root {
+* {
   /************************************************** 
       Global colors 
   **************************************************/
@@ -206,7 +206,7 @@
 }
 
 /* Text colors */
-:root {
+* {
   --tt-color-text-gray: hsl(45, 2%, 46%);
   --tt-color-text-brown: hsl(19, 31%, 47%);
   --tt-color-text-orange: hsl(30, 89%, 45%);
@@ -251,7 +251,7 @@
 }
 
 /* Highlight colors */
-:root {
+* {
   --tt-color-highlight-yellow: #fef9c3;
   --tt-color-highlight-green: #dcfce7;
   --tt-color-highlight-blue: #e0f2fe;
