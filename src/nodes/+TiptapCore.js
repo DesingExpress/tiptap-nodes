@@ -9,7 +9,7 @@ export class TiptapCore extends Pure {
 
   constructor() {
     super();
-    this.addInput("plugins", "Tiptap::plugins");
+    this.addInput("plugins", "tiptap::plugins,array");
     this.addOutput("component", "component");
   }
 
