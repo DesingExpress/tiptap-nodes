@@ -1,3 +1,11 @@
 import { SimpleEditor } from "@/components/tiptap-templates/simple/simple-editor";
 import "./index.scss";
-export default SimpleEditor;
+
+function Main() {
+  return (
+    <div className="tiptap-editor-nxv">
+      <SimpleEditor />
+    </div>
+  );
+}
+export default Main;
