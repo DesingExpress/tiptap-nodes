@@ -1,11 +1,16 @@
 {
   "name": "@NEXIVIL/Tiptap",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
-  "description": "",
+  "description": "The headless rich text editor framework for web artisans.",
   "license": "MIT",
   "files": [
     "build"
+  ],
+  "keywords": [
+    "tiptap",
+    "wysiwyg",
+    "editor"
   ],
   "dependencies": {
     "@design-express/node-scripts": "^1.2.15",
