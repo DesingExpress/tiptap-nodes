@@ -10,10 +10,10 @@ const StyledWrapper = styled("div")(({ theme }) => ({
   overflow: "hidden",
 }));
 
-function Editor({ ...props }) {
+function Editor({ onReady, ...props }) {
   return (
     <StyledWrapper {...props} tabIndex={0}>
-      <SimpleEditor />
+      <SimpleEditor onReady={onReady} />
     </StyledWrapper>
   );
 }
